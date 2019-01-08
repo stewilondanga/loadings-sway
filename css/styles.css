@@ -51,12 +51,12 @@ body {
   transform: rotate(120deg);
 }
 
-/*.loader::after {
-    border-top: 0.3em solid gold;
-    transform: rotate(240deg);
+.loader::after {
+  border-top: 0.3em solid gold;
+  transform: rotate(240deg);
 }
 
-.loader span {
+/*.loader span {
     position: absolute;
     color: white;
     width: inherit;
