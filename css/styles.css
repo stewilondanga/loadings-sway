@@ -35,19 +35,18 @@ body {
   --direction: 1;
 }
 
-/*
 .loader::before,
 .loader::after {
-    content: '';
-    position: absolute;
-    width: inherit;
-    height: inherit;
-    border-radius: 50%;
-    box-sizing: border-box;
-    top: -0.2em;
+  content: '';
+  position: absolute;
+  width: inherit;
+  height: inherit;
+  border-radius: 50%;
+  box-sizing: border-box;
+  top: -0.2em;
 }
 
-.loader::before {
+/*.loader::before {
     border-top: 0.3em solid dodgerblue;
     transform: rotate(120deg);
 }
