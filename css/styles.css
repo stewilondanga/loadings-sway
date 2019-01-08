@@ -56,19 +56,19 @@ body {
   transform: rotate(240deg);
 }
 
-/*.loader span {
-    position: absolute;
-    color: white;
-    width: inherit;
-    height: inherit;
-    text-align: center;
-    line-height: 10em;
-    font-family: sans-serif;
-    animation: rotating 2s linear infinite;
-    --direction: -1;
+.loader span {
+  position: absolute;
+  color: white;
+  width: inherit;
+  height: inherit;
+  text-align: center;
+  line-height: 10em;
+  font-family: sans-serif;
+  animation: rotating 2s linear infinite;
+  --direction: -1;
 }
 
-@keyframes rotating {
+/*@keyframes rotating {
     50% {
         transform: rotate(calc(180deg * var(--direction)));
     }
