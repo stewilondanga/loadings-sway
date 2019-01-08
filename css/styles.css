@@ -46,12 +46,12 @@ body {
   top: -0.2em;
 }
 
-/*.loader::before {
-    border-top: 0.3em solid dodgerblue;
-    transform: rotate(120deg);
+.loader::before {
+  border-top: 0.3em solid dodgerblue;
+  transform: rotate(120deg);
 }
 
-.loader::after {
+/*.loader::after {
     border-top: 0.3em solid gold;
     transform: rotate(240deg);
 }
