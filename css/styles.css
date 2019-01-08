@@ -23,19 +23,19 @@ body {
   height: 1.5em;
 }
 
-/*
 .loader {
-    width: 10em;
-    height: 10em;
-    font-size: 25px;
-    box-sizing: border-box;
-    border-top: 0.3em solid hotpink;
-    border-radius: 50%;
-    position: relative;
-    animation: rotating 2s ease-in-out infinite;
-    --direction: 1;
+  width: 10em;
+  height: 10em;
+  font-size: 25px;
+  box-sizing: border-box;
+  border-top: 0.3em solid hotpink;
+  border-radius: 50%;
+  position: relative;
+  animation: rotating 2s ease-in-out infinite;
+  --direction: 1;
 }
 
+/*
 .loader::before,
 .loader::after {
     content: '';
